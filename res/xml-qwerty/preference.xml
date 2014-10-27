@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<PreferenceCategory 
+	    android:title="首选项">
+	    
+	    <CheckBoxPreference
+	        android:summary="Enter a string"
+	        android:defaultValue="192.168.1.102"
+	        android:title="服务器ip地址设定"
+	        android:key="serverIpPreference" />
+	</PreferenceCategory>
+</PreferenceScreen>

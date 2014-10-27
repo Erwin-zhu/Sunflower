@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+
+    <SurfaceView 
+        android:id="@+id/sv_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"/>
+	<Button 
+	    android:id="@+id/bt_startService"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/bt_startService"
+	    android:onClick="startService"></Button>"
+	<Button 
+	    android:id="@+id/bt_stopService"
+	    android:layout_toRightOf="@id/bt_startService"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/bt_stopService"
+	    android:onClick="stopService"></Button>
+</RelativeLayout>

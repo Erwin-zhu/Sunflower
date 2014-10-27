@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sunflower</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bt_startService">开启服务</string>
+	<string name="bt_stopService">关闭服务</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_help">Help</string>
+</resources>
